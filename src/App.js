@@ -9,8 +9,11 @@ function App() {
 
   return (
     <>
-      <Sidebar elements={elements} setElements={setElements}/>
-      <Canvas elements={elements}/>
+      <div className="container">
+        <Sidebar setElements={setElements}/>
+        <Canvas elements={elements}/>
+      </div>
+      <div class="footer">Developed with ❤️ by <a href="https://nicolezimerman.github.io/"> Nicole Zimerman</a></div>
     </>
   );
 }
