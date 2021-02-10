@@ -13,7 +13,7 @@ function Sidebar(props){
                             "There’s always a bigger fish",
                             "Power! Unlimited power!",
                             "May the force be with you"];
-    const stickers = ["hamburger","hotdog"];
+    const stickers = ["babyyoda","darthvader","princessleia","rab"];
     const colors = ["red","black","orange","blue","green","pink","violet"];
 
     function addImage(){
